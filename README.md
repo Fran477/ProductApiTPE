@@ -30,6 +30,7 @@ GET:ID (Trae un producto filtrado por su id)
          http://localhost/api-productTPE/api/products/:ID
 
 EJEMPLO:
+
          http://localhost/api-productTPE/api/products/1
 
 DELETE:ID (Se utiliza el metodo delete y se le tiene que pasar un id valido)
@@ -37,6 +38,7 @@ DELETE:ID (Se utiliza el metodo delete y se le tiene que pasar un id valido)
          http://localhost/api-productTPE/api/products/:ID
 
 EJEMPLO: 
+
          http://localhost/api-productTPE/api/products/1
 
 
@@ -53,6 +55,7 @@ POST (Se utuliza este metodo para poder agregar un producto a la base de datos)
          http://localhost/api-productTPE/api/products
 
 EJEMPLO:  
+
          http://localhost/api-productTPE/api/products
 
 PARA LOS METODOS POST Y PUT EN POSTMAN SE DEBE DE MANDAR EL PRODUCTO DE LA SIGUIENTE MANERA:
@@ -81,7 +84,8 @@ GET ordenamiento ASC y DESC por uno de los siguientes campos
 - stock
 - price
 
-ademas se debe de elejir entre:
+Ademas se debe de elejir entre:
+
 - asc
 - desc
 
@@ -96,12 +100,14 @@ GET filtrar un producto por el campo tipo de filamento (se puede filtrar los pro
 
 - Varible: filament
 
-tipos de filamentos para el filtro:
+Tipos de filamentos para el filtro:
+
 - PLA
 - PETG
 - PTG
 
 EJEMPLO:  
+
          http://localhost/api-productTPE/api/products/?filament=PLA
 
 
