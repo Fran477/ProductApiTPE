@@ -2,8 +2,8 @@
 Una API REST creada para listar, filtrar, agregar, modificar, ordenar los productos 3dPrint
 
 ## Importar la base de datos
-- importar desde PHPMyAdmin (o cualquiera) db/db_product3d.sql
-- Campos de la tabla:
+importar desde PHPMyAdmin (o cualquiera) db/db_product3d.sql
+Campos de la tabla:
 
 - id
 - name
