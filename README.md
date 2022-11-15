@@ -54,15 +54,15 @@ PARA LOS METODOS POST Y PUT EN POSTMAN SE DEBE DE MANDAR EL PRODUCTO DE LA SIGUI
 
 EJEMPLO:
 
-{
-    "id": "1",
-    "name": "Jabonera",
-    "price": "2000",
-    "description": "Una jabonera impresa en 3D con una gran resistencia al agua.",
-    "type_filament": "PLA",
-    "stock": "2",
-    "id_category": "1"
-}
+        {
+            "id": "1",
+            "name": "Jabonera",
+            "price": "2000",
+            "description": "Una jabonera impresa en 3D con una gran resistencia al agua.",
+            "type_filament": "PLA",
+            "stock": "2",
+            "id_category": "1"
+        }
 
 
 ## Endpoint para la utilizacion de los ordenamientos y filtros
