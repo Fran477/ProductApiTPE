@@ -21,11 +21,11 @@ Una API REST creada para listar, filtrar, agregar, modificar, ordenar los produc
 
 ## Endpoint para la utilizacion de la API
 
-GET (Traer todos los productos y listarlos)
+- GET (Traer todos los productos y listarlos)
 
          http://localhost/api-productTPE/api/products/
 
-GET:ID (Trae un producto filtrado por su id)
+- GET:ID (Trae un producto filtrado por su id)
 
          http://localhost/api-productTPE/api/products/:ID
 
@@ -33,7 +33,7 @@ EJEMPLO:
 
          http://localhost/api-productTPE/api/products/1
 
-DELETE:ID (Se utiliza el metodo delete y se le tiene que pasar un id valido)
+- DELETE:ID (Se utiliza el metodo delete y se le tiene que pasar un id valido)
 
          http://localhost/api-productTPE/api/products/:ID
 
@@ -42,7 +42,7 @@ EJEMPLO:
          http://localhost/api-productTPE/api/products/1
 
 
-PUT:ID (Se utiliza para poder modificar un producto)
+- PUT:ID (Se utiliza para poder modificar un producto)
 
          http://localhost/api-productTPE/api/products/:ID
 
@@ -50,7 +50,7 @@ EJEMPLO:
 
          http://localhost/api-productTPE/api/products/1
 
-POST (Se utuliza este metodo para poder agregar un producto a la base de datos)
+- POST (Se utuliza este metodo para poder agregar un producto a la base de datos)
 
          http://localhost/api-productTPE/api/products
 
@@ -58,7 +58,7 @@ EJEMPLO:
 
          http://localhost/api-productTPE/api/products
 
-PARA LOS METODOS POST Y PUT EN POSTMAN SE DEBE DE MANDAR EL PRODUCTO DE LA SIGUIENTE MANERA:
+- PARA LOS METODOS POST Y PUT EN POSTMAN SE DEBE DE MANDAR EL PRODUCTO DE LA SIGUIENTE MANERA:
 
 EJEMPLO:
 
@@ -75,7 +75,7 @@ EJEMPLO:
 
 ## Endpoint para la utilizacion de los ordenamientos y filtros
 
-GET ordenamiento ASC y DESC por uno de los siguientes campos
+- GET ordenamiento ASC y DESC por uno de los siguientes campos
 
 "id","name","stock","price"
 
@@ -84,7 +84,7 @@ GET ordenamiento ASC y DESC por uno de los siguientes campos
 - stock
 - price
 
-Ademas se debe de elejir entre:
+- Ademas se debe de elejir entre:
 
 - asc
 - desc
@@ -96,11 +96,11 @@ EJEMPLO:
 
          http://localhost/api-productTPE/api/products/?order=asc&field=name
 
-GET filtrar un producto por el campo tipo de filamento (se puede filtrar los productos por los diferentes tipos de filamentos especificados)
+- GET filtrar un producto por el campo tipo de filamento (se puede filtrar los productos por los diferentes tipos de filamentos especificados)
 
 - Varible: filament
 
-Tipos de filamentos para el filtro:
+- Tipos de filamentos para el filtro:
 
 - PLA
 - PETG
