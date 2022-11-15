@@ -5,25 +5,25 @@ Una API REST creada para listar, filtrar, agregar, modificar, ordenar los produc
 - importar desde PHPMyAdmin (o cualquiera) db/db_product3d.sql
 - Campos de la tabla:
 
--id
--name
--price
--stock
--description
--type_filament
--id_category
+- id
+- name
+- price
+- stock
+- description
+- type_filament
+- id_category
 
 
 ## Endpoint de la API para probar con Postman
 
--> http://localhost/api-productTPE/api/products/
+       -> http://localhost/api-productTPE/api/products/
 
 
 ## Endpoint para la utilizacion de la API
 
 GET (Traer todos los productos y listarlos)
 
--> http://localhost/api-productTPE/api/products/
+       -> http://localhost/api-productTPE/api/products/
 
 GET:ID (Trae un producto filtrado por su id)
 
