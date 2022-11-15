@@ -85,7 +85,7 @@ EJEMPLO:
 - stock
 - price
 
-- Ademas se debe de elejir entre:
+Ademas se debe de elejir entre:
 
 - asc
 - desc
