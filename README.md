@@ -23,7 +23,7 @@ Una API REST creada para listar, filtrar, agregar, modificar, ordenar los produc
 
 GET (Traer todos los productos y listarlos)
 
-       -> http://localhost/api-productTPE/api/products/
+->      http://localhost/api-productTPE/api/products/
 
 GET:ID (Trae un producto filtrado por su id)
 
